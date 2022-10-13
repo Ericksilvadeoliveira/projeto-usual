@@ -2,25 +2,67 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body, html, #cabeca, h1 {
+body, html, .container, header, ul, li, #cabeca {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
+body, html {
+    height: 100vh;
+}
 .container {
     display: flex;
+    height: 83vh;
 }
 
 header {
-    
+    box-shadow: 3px 0px lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px;
+    height: 79.5vh;
 }
+
 li {
     list-style-type: none;
+    padding: 5px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.troca-paginas, .explorar-content {
+    display: none;
+}
+
 #cabeca {
     background-color: #212B36;
     color: #FFFFFF;
     font-style: italic;
-    padding: 5vw;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.explorar-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.post {
+    display: flex;
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px black;
+}
+footer {
+    background-color: #212B36;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
 }
