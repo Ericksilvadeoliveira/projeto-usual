@@ -17,7 +17,7 @@ body, html {
 }
 
 header {
-    box-shadow: 3px 0px lightgray;
+    box-shadow: 3px 0px #2222FE;
     border-radius: 5px;
     padding: 10px;
     margin: 0px 10px;
@@ -49,15 +49,11 @@ a {
 .explorar-content {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    overflow: hidden;
 }
-.post {
-    display: flex;
-    width: 150px;
-    height: 100px;
-    padding: 5px;
-    margin: 5px;
-    border: solid 1px black;
+
+#if-explorar {
+    overflow-y: hidden;
 }
 footer {
     background-color: #212B36;
