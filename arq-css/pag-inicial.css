@@ -1,0 +1,78 @@
+@charset "UTF-8";
+:root {
+    --cor-principal: #2C3E50;
+    --cor-dois: #2980B9;
+    --cor-dois-clara: #3498DB;
+    --cor-detalhes: #E74C3C;
+    --cor-txt-detathes: #ECF0F1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cor-principal);
+    border-radius: 1px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    padding-right: 10px;
+    color: var(--cor-txt-detathes);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pagInicial {
+    background-color: var(--cor-dois-clara);
+    border-radius: 20px;
+}
+.logo {
+    color: var(--cor-txt-detathes);
+    font-size: 24px;
+    font-style: italic;
+    padding-right: 30px;
+}
+
+.notificacoes img {
+    width: 32px;
+    height: 32px;
+}
+
+.msg img {
+    width: 32px;
+    height: 32px;
+}
+
+.perfil img {
+    width: 32px;
+    height: 32px;
+}
+.pesquisaContainer {
+    background-color: var(--cor-txt-detathes);
+    border-radius: 24px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisar input {
+    background-color: var(--cor-txt-detathes);
+    border: transparent;
+    padding: 5px;
+    width: 150px;
+    height: 24px;
+
+}
