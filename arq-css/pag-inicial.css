@@ -15,64 +15,55 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    display: flex;
+}
+
 header {
     background-color: var(--cor-principal);
+    color: var(--cor-dois);
     border-radius: 1px;
-    height: 64px;
+    height: 94vh;
+    width: 7vw;
+}
+
+.headerContainer {
+    margin-top: 5vh;
+    height: 60vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
-header div {
-    padding-right: 10px;
-    color: var(--cor-txt-detathes);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.headerContainer img:hover {
+    width: 5vw;
+    height: 10vh;
+    
 }
 
-.pagInicial {
-    background-color: var(--cor-dois-clara);
-    border-radius: 20px;
+.pagInicial div {
+    display: none;
 }
+
 .logo {
     color: var(--cor-txt-detathes);
-    font-size: 24px;
+    font-size: 1.5vw;
     font-style: italic;
-    padding-right: 30px;
+    text-decoration: underline;
+}
+header img {
+    width: 3vw;
+    height: 7vh;
+    cursor: pointer;
 }
 
-.notificacoes img {
-    width: 32px;
-    height: 32px;
-}
-
-.msg img {
-    width: 32px;
-    height: 32px;
-}
-
-.perfil img {
-    width: 32px;
-    height: 32px;
-}
-.pesquisaContainer {
-    background-color: var(--cor-txt-detathes);
-    border-radius: 24px;
-    padding: 3px;
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-dois-clara);
+    padding: 1vh;
+    height: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.pesquisar input {
-    background-color: var(--cor-txt-detathes);
-    border: transparent;
-    padding: 5px;
-    width: 150px;
-    height: 24px;
-
 }
