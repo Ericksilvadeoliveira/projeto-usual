@@ -1,9 +1,12 @@
-var paginaInicial = document.querySelector('.pag-inicial');
-var trocaPaginas = document.querySelector('.troca-paginas');
-var explorar = document.querySelector('.explorar');
-var explorarContent = document.querySelector('.explorar-content');
+var pagInicial = document.querySelector('.pagInicial');
 
-explorar.addEventListener('click', function() {
-    
-})
+function aparecerNome () {
+    var displayDiv = document.getElementById('home').style.display;
+    if (displayDiv = 'none') {
+        document.getElementById.style.display = 'block';
+    } else {
+        document.getElementById.style.display = 'none';
+    }
+}
+pagInicial.addEventListener('mouseenter', aparecerNome (Event))
 
